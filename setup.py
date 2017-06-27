@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='django-admin-jqueryui112',
-    version='1.12.1',
+    version='1.12.1b3',
     author='Piotr Kilczuk -- Hint, Taras Gaidukov -- Kemaweyan',
     author_email='piotr@hint.pl, kemaweyan@gmail.com',
     url='https://github.com/Kemaweyan/django-admin-jqueryui112',
@@ -13,9 +13,10 @@ setup(
     packages=find_packages(),
     provides=['admin_jqueryui', ],
     include_package_data=True,
+    package_data = {"admin_jqueryui": ["static/admin_jqueryui/js/*.js"]},
     classifiers=[
         'Framework :: Django',
-        #'Development Status :: 5 - Production/Stable',
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Programming Language :: Python',
         'Intended Audience :: Developers',
