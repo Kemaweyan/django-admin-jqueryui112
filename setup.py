@@ -3,12 +3,12 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='django-admin-jqueryui',
+    name='django-admin-jqueryui112',
     version='1.12.1',
-    author='Piotr Kilczuk -- Hint',
-    author_email='piotr@hint.pl',
-    url='https://github.com/hint/django-admin-jqueryui',
-    description='Simply adds a jquery ui to the admin panel',
+    author='Piotr Kilczuk -- Hint, Taras Gaidukov -- Kemaweyan',
+    author_email='piotr@hint.pl, kemaweyan@gmail.com',
+    url='https://github.com/Kemaweyan/django-admin-jqueryui112',
+    description='A fork of the django-admin-jqueryui. Simply adds a jquery ui to the admin panel',
     #packages = ['inline_ordering',],
     packages=find_packages(),
     provides=['admin_jqueryui', ],

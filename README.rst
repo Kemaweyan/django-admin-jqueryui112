@@ -1,8 +1,9 @@
-=====================
-django-admin-jqueryui
-=====================
+========================
+django-admin-jqueryui112
+========================
 
-This app adds jQuery UI to your Django admin panel.
+This app adds jQuery UI to your Django admin panel. The projects is
+a fork of the django-admin-jqueryui. 
 
 Installation
 ------------
