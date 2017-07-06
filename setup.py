@@ -4,7 +4,8 @@ from setuptools import find_packages, setup
 
 setup(
     name='django-admin-jqueryui112',
-    version='1.12.1b4',
+    version='1.12.1b5',
+    license='BSD License',
     author='Piotr Kilczuk -- Hint, Taras Gaidukov -- Kemaweyan',
     author_email='piotr@hint.pl, kemaweyan@gmail.com',
     url='https://github.com/Kemaweyan/django-admin-jqueryui112',
